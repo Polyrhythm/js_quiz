@@ -95,7 +95,7 @@ controller = ->
 
 ender = ->
   content = document.getElementById 'content'
-  playerStatus = 'horrible'
+  playerStatus = 'horrible' # want to make this dynamic at some point
   content.innerHTML = '<h2>You got ' + sumCorrect + '/' + iteration + ' correct.</h2>' +
     '<h4>You are a ' + playerStatus + ' person.</h4>' +
     '<p><a href="mailto:polyrhythm@gmail.com">Fuck you</a></p>'
